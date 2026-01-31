@@ -26,7 +26,7 @@ A clean, reusable, and production-ready **Tree View Component** built with **Rea
 - **Hierarchy Integrity** – Drag & drop operations maintain proper parent-child relationships.  
 - **Readable & Extensible** – Code written to be easy to debug, extend, and maintain.  
 
----
+
 
 ## 🛠 Tech Stack
 
