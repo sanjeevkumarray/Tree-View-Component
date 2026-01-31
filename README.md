@@ -1,8 +1,4 @@
-Perfect! Here’s the **full, clean, and ready-to-use README.md** for your **Tree View Component** project. You can copy this file as-is into your project root and push to GitHub.
 
----
-
-````markdown
 # 🌳 Tree View Component
 
 A clean, reusable, and production-ready **Tree View Component** built with **React** and **TypeScript**. Inspired by real-world use cases like **file explorers**, **category management panels**, and **hierarchical data visualization**, this project emphasizes clarity, scalability, and maintainability.  
@@ -91,53 +87,6 @@ Check it live here: [https://tree-view-components.netlify.app/](https://tree-vie
 
 <img width="1882" height="831" alt="Tree View Demo" src="https://github.com/user-attachments/assets/fe3e9501-79de-4253-9457-8d6d74483fa2" />
 
----
 
-## 📁 Project Structure
 
-```
-tree-view-component/
-│
-├─ src/
-│  ├─ components/
-│  │  ├─ TreeView.tsx
-│  │  └─ TreeNode.tsx
-│  ├─ types/
-│  │  └─ tree.ts
-│  ├─ utils/
-│  │  └─ treeHelpers.ts
-│  ├─ api/
-│  │  └─ mockApi.ts
-│  ├─ App.tsx
-│  └─ index.tsx
-└─ package.json
-```
 
----
-
-## ⭐ Contributing
-
-Contributions, improvements, and suggestions are welcome! Feel free to **fork**, **submit issues**, or **open pull requests**.
-
----
-
-## 📝 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-```
-
----
-
-This version is:  
-
-✅ Fully formatted with **Markdown best practices**  
-✅ Includes **Getting Started**, **Notes**, **Live Demo**, **Screenshot**, and **Project Structure**  
-✅ Ready to push to GitHub  
-
----
-
-If you want, I can also **prepare a `.gitignore` and full project folder ready to push**, so you just clone and start.  
-
-Do you want me to do that too?
-```
