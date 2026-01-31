@@ -1,8 +1,4 @@
-Absolutely! Here's a polished and **professional README.md** for your Tree View Component project, ready to use for GitHub:
 
----
-
-````markdown
 # 🌳 Tree View Component
 
 A clean, reusable, and production-ready **Tree View Component** built with **React** and **TypeScript**. Inspired by real-world use cases like **file explorers**, **category management panels**, and **hierarchical data visualization**, this project emphasizes clarity, scalability, and maintainability.  
