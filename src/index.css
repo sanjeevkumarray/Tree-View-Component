@@ -1,13 +1,92 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Segoe UI", Roboto, sans-serif;
+  background: #f5f7fb;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.tree-container {
+  background: white;
+  padding: 20px;
+  width: 420px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Tree node wrapper */
+.tree-node {
+  position: relative;
+  margin-left: 25px;
+  padding-left: 15px;
+}
+
+/* Vertical dotted line */
+.tree-node::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -10px;
+  bottom: 0;
+  border-left: 2px dotted #cfd8dc;
+}
+
+/* Node row */
+.node-content {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 6px 10px;
+  margin-bottom: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  transition: all 0.2s ease;
+}
+
+.node-content:hover {
+  background: #f0f4ff;
+  transform: translateX(2px);
+}
+
+/* Expand icon */
+.toggle {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #4f7cff;
+  color: white;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+/* Node label */
+.node-label {
+  flex: 1;
+  font-weight: 500;
+}
+
+/* Buttons */
+.node-btn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 6px;
+}
+
+.node-btn.add {
+  color: #2ecc71;
+}
+
+.node-btn.delete {
+  color: #e74c3c;
+}
+
+/* Input edit */
+.node-input {
+  flex: 1;
+  padding: 4px 6px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
 }
